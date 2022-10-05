@@ -20,6 +20,13 @@ sudo dnf install jq
 sudo apt install jq
 ```
 
+3. creating symbolic links in home directory
+
+```bash
+~$ ln -s .configs-vim/.vimrc .vimrc
+~$ ln -s .configs-vim/.vim/ .vim
+```
+
 # Vim Configurations
 
 1. In command mode install plugins
