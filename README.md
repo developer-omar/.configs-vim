@@ -5,8 +5,8 @@
 2. creating symbolic links in home directory
 
 ```bash
-[~]$ ln -s .configs-vim/.vimrc .vimrc
-[~]$ ln -s .configs-vim/.vim/ .vim
+[~]$ ln -s "$HOME/.configs-vim/.vimrc" .vimrc
+[~]$ ln -s "$HOME/.configs-vim/.vim/" .vim
 ```
 
 3. Install plugin manager [vim-plug](https://github.com/junegunn/vim-plug)
@@ -28,12 +28,24 @@ sudo dnf install jq
 sudo apt install jq
 ```
 
+5. Install nodejs>= 14.14 for [Conquer of Completion (Coc)](https://github.com/neoclide/coc.nvim), I suggest install with [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm)
+
+6. For Plugin UltiSnip the Python 3.x interface must be available
+
 # Vim Configurations
 
-1. Open Vim and in command mode install plugins
+Open Vim and in command mode
+
+1. install plugins
 
 ```
 :PlugInstall
+```
+
+2. Install coc extensions that you require, example:
+
+```
+:CocInstall coc-emmet coc-pairs coc-phpls coc-tsserver coc-html coc-css
 ```
 
 
