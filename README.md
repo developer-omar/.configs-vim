@@ -1,4 +1,4 @@
-# Required Instalations
+# Requirements
 
 1. Clone Repository
 
@@ -28,10 +28,6 @@ sudo dnf install jq
 sudo apt install jq
 ```
 
-5. Install nodejs>= 14.14 for [Conquer of Completion (Coc)](https://github.com/neoclide/coc.nvim), I suggest install with [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm)
-
-6. For Plugin UltiSnip the Python 3.x interface must be available
-
 # Vim Configurations
 
 Open Vim and in command mode
@@ -40,12 +36,6 @@ Open Vim and in command mode
 
 ```
 :PlugInstall
-```
-
-2. Install coc extensions that you require, example:
-
-```
-:CocInstall coc-emmet coc-pairs coc-phpls coc-tsserver coc-html coc-css
 ```
 
 
