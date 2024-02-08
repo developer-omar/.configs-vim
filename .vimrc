@@ -1,10 +1,12 @@
 " Settings
-source ~/.configs-vim/settings/installed-plugins.vim
-source ~/.configs-vim/settings/theme.vim
-source ~/.configs-vim/settings/vim-settings.vim
+source $HOME/.configs-vim/settings/installed-plugins.vim
 
-" Keyboard shortcuts
-source ~/.configs-vim/keyboard-shortcuts/vim-utils.vim
-source ~/.configs-vim/keyboard-shortcuts/tabs.vim
-source ~/.configs-vim/keyboard-shortcuts/splits.vim
-source ~/.configs-vim/keyboard-shortcuts/buffers.vim
+source $HOME/.configs-vim/settings/theme.vim
+source $HOME/.configs-vim/settings/vim-settings.vim
+
+" My settings for different parts of vim
+source $HOME/.configs-vim/my-settings/vim-utils.vim
+source $HOME/.configs-vim/my-settings/tabs.vim
+source $HOME/.configs-vim/my-settings/splits.vim
+source $HOME/.configs-vim/my-settings/buffers.vim
+source $HOME/.configs-vim/my-settings/commands.vim
